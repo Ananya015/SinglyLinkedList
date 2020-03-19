@@ -1,6 +1,8 @@
 package definition;
 
 public class SinglyLinkedList<E> {
+    private Node<E> head;
+
 
 private static class Node<E>{
     private E data;
