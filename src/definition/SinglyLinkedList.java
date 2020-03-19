@@ -10,11 +10,16 @@ public class SinglyLinkedList<E> {
        head=new_node;
        size++;
     }
+
     public void addAfter(Node preNode,E item){
        Node new_node=new Node ( item,preNode.next );
        new_node.next=preNode.next;
        preNode.next=new_node;
        size++;
+    }
+
+    public void add(int index,E item){
+
     }
    public void printList(){
         Node<E> pnode=head;
