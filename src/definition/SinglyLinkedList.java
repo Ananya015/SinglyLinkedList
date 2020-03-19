@@ -51,6 +51,19 @@ public class SinglyLinkedList<E> {
         }
         return response;
     }
+
+    private E removeAfter(Node<E> afterNode){
+        Node<E> temp = afterNode.getNext();
+        if (temp != null) {
+            afterNode.next = temp.getNext();
+            size--;
+        }
+        E respone = temp.getData();
+        return respone;
+    }
+
+
+
    public void printList(){
         Node<E> pnode=head;
         while(pnode!=null){
