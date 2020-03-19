@@ -33,7 +33,8 @@ public class SinglyLinkedList<E> {
             addFirst ( item );
         }
         else {
-
+            Node<E> temp=getNode ( index-1 );
+            addAfter ( temp,item );
         }
 
     }
