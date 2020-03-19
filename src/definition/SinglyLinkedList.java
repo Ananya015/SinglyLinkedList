@@ -4,6 +4,10 @@ public class SinglyLinkedList<E> {
     private Node<E> head;
     private int size=0;
 
+    public void addFirst(E item){
+
+    }
+
 
 private static class Node<E>{
     private E data;
