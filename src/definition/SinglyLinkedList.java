@@ -38,6 +38,10 @@ public class SinglyLinkedList<E> {
         }
 
     }
+
+    private E removeFirst(){
+
+    }
    public void printList(){
         Node<E> pnode=head;
         while(pnode!=null){

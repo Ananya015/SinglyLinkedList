@@ -9,6 +9,7 @@ public class Main {
         SinglyLinkedList<Integer> list=new SinglyLinkedList<> ();
         list.addFirst ( 67 );
         list.add(1,88);
+        list.add(2,99);
         list.printList ();
     }
 }
