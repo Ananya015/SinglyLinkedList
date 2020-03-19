@@ -10,6 +10,7 @@ public class Main {
         list.addFirst ( 67 );
         list.add(1,88);
         list.add(2,99);
+        list.remove ( 1 );
         list.printList ();
     }
 }
