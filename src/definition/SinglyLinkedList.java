@@ -2,6 +2,7 @@ package definition;
 
 public class SinglyLinkedList<E> {
     private Node<E> head;
+    private int size=0;
 
 
 private static class Node<E>{
