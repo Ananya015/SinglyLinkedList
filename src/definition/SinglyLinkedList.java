@@ -5,7 +5,10 @@ public class SinglyLinkedList<E> {
     private int size=0;
 
     public void addFirst(E item){
-
+       Node new_node=new Node ( item,head );
+       new_node.next=head;
+       head=new_node;
+       size++;
     }
 
 
