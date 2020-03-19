@@ -13,6 +13,11 @@ private static class Node<E>{
     public Node<E> getNext() {
         return next;
     }
+
+    public Node(E data, Node<E> next) {
+        this.data = data;
+        this.next = next;
+    }
 }
 
 
