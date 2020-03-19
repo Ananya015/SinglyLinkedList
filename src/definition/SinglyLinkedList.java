@@ -11,7 +11,11 @@ public class SinglyLinkedList<E> {
        size++;
     }
    public void printList(){
-        
+        Node<E> pnode=head;
+        while(pnode!=null){
+            System.out.println (pnode.data+" ");
+            pnode=pnode.next;
+        }
    }
 
 private static class Node<E>{
