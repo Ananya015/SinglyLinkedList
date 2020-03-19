@@ -10,7 +10,9 @@ public class SinglyLinkedList<E> {
        head=new_node;
        size++;
     }
-
+   public void printList(){
+        
+   }
 
 private static class Node<E>{
     private E data;
